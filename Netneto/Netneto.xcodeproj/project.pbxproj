@@ -292,6 +292,8 @@
 		189E8EE72D840B6300D756EB /* askAndQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189E8EE42D840B6300D756EB /* askAndQuestionViewController.m */; };
 		189E8EF12D842DA700D756EB /* askAndQuestionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 189E8EF02D842DA700D756EB /* askAndQuestionTableViewCell.m */; };
 		189E8EF32D87F69700D756EB /* ask.json in Resources */ = {isa = PBXBuildFile; fileRef = 189E8EF22D87F69700D756EB /* ask.json */; };
+		189E8F062D9E1BF600D756EB /* appendAskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189E8F052D9E1BF600D756EB /* appendAskView.m */; };
+		189E8F082D9E1C0300D756EB /* appendAskView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189E8F072D9E1C0300D756EB /* appendAskView.xib */; };
 		18A818552D5B2F8100E20897 /* GouponModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A818542D5B2F8000E20897 /* GouponModel.m */; };
 		18A818662D6BFB6F00E20897 /* MineMsgViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A818652D6BFB6F00E20897 /* MineMsgViewController.xib */; };
 		18A818672D6BFB6F00E20897 /* MineMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A818642D6BFB6F00E20897 /* MineMsgViewController.m */; };
@@ -884,6 +886,9 @@
 		189E8EEF2D842DA700D756EB /* askAndQuestionTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = askAndQuestionTableViewCell.h; sourceTree = "<group>"; };
 		189E8EF02D842DA700D756EB /* askAndQuestionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = askAndQuestionTableViewCell.m; sourceTree = "<group>"; };
 		189E8EF22D87F69700D756EB /* ask.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ask.json; sourceTree = "<group>"; };
+		189E8F042D9E1BF600D756EB /* appendAskView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = appendAskView.h; sourceTree = "<group>"; };
+		189E8F052D9E1BF600D756EB /* appendAskView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appendAskView.m; sourceTree = "<group>"; };
+		189E8F072D9E1C0300D756EB /* appendAskView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = appendAskView.xib; sourceTree = "<group>"; };
 		18A818532D5B2F8000E20897 /* GouponModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GouponModel.h; sourceTree = "<group>"; };
 		18A818542D5B2F8000E20897 /* GouponModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GouponModel.m; sourceTree = "<group>"; };
 		18A818632D6BFB6F00E20897 /* MineMsgViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineMsgViewController.h; sourceTree = "<group>"; };
@@ -1340,6 +1345,9 @@
 				01A152422CA40C8C00A82F45 /* ContectUsTableViewCell.h */,
 				01A152432CA40C8C00A82F45 /* ContectUsTableViewCell.m */,
 				01A152442CA40C8C00A82F45 /* ContectUsTableViewCell.xib */,
+				189E8F042D9E1BF600D756EB /* appendAskView.h */,
+				189E8F052D9E1BF600D756EB /* appendAskView.m */,
+				189E8F072D9E1C0300D756EB /* appendAskView.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -2662,6 +2670,7 @@
 				0FB21E3E2CB41DFB00E3B586 /* LiveStartShowView.xib in Resources */,
 				0F9D81CD2CA45542008D0942 /* addContactViewController.xib in Resources */,
 				189E8EF32D87F69700D756EB /* ask.json in Resources */,
+				189E8F082D9E1C0300D756EB /* appendAskView.xib in Resources */,
 				18E5F22A2CBF976700C80D2B /* PaymentView.xib in Resources */,
 				0FA7D8932CB96EB300DE769E /* LiveBottomView.xib in Resources */,
 				18AB8F862D2FD42F00707AA4 /* HomeGoodDetailWKBottomView.xib in Resources */,
@@ -2949,6 +2958,7 @@
 				1879A4532D2BA9FA0018D272 /* MsgLinkRightTableViewCell.m in Sources */,
 				18B9DAB22CC255230079FDAC /* CheckWuLiuTableViewCell.m in Sources */,
 				0F38BB062C955FA4002E09F2 /* ShoppingCartCell.m in Sources */,
+				189E8F062D9E1BF600D756EB /* appendAskView.m in Sources */,
 				189E8E992D71B69D00D756EB /* mecharnAddressView.m in Sources */,
 				0FF179D82C931F5000BEA69B /* ClassificationViewController.m in Sources */,
 				18E5F23F2CC1015200C80D2B /* APPlyReturnMoneyView.m in Sources */,

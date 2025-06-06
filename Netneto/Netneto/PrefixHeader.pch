@@ -24,14 +24,14 @@
 
 #define TransOutput(key) [[LanguageTool shareInstance] getLangStringForKey:key withList:@"Localizable"]
 #define versionNum  @"1.1.4"
-#define AgoraAppId  @"8aa477e8d50642148bdbe3e2e55a6ce3"  //正式
-#define SQIAPPID  @"sq0idp-ucapaA1DWj6dG66BurvosQ"//正式
-#define SOCKETURL @"wss://im.netneto.jp"//正式
+//#define AgoraAppId  @"8aa477e8d50642148bdbe3e2e55a6ce3"  //正式
+//#define SQIAPPID  @"sq0idp-ucapaA1DWj6dG66BurvosQ"//正式
+//#define SOCKETURL @"wss://im.netneto.jp"//正式
 
 //#define SOCKETURL @"ws://192.168.1.117:9999/ws"//本地
-//#define SOCKETURL @"ws://netty.yueran.vip"//测试
-//#define AgoraAppId  @"b95bfe7f6dc24f8196490e4f26fb99f0" //测试
-//#define SQIAPPID  @"sandbox-sq0idb-caheIXP2Cl9LSwcQ2qrASQ"//测试
+#define SOCKETURL @"ws://netty.yueran.vip"//测试
+#define AgoraAppId  @"b95bfe7f6dc24f8196490e4f26fb99f0" //测试
+#define SQIAPPID  @"sandbox-sq0idb-caheIXP2Cl9LSwcQ2qrASQ"//测试
 // 判断是否为刘海屏
 #define IS_NOTCH_SCREEN \
 ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) \
@@ -40,7 +40,6 @@
 #define iPhoneX ([[UIScreen mainScreen] bounds].size.height == 812)
 #define UI_IS_IPHONE                ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
 
-#define UI_IS_IPHONE4               (UI_IS_IPHONE && [[UIScreen mainScreen] bounds].size.height < 568.0)
 #define UI_IS_IPHONE5               (UI_IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 568.0)
 #define UI_IS_IPHONE6_OR_7          (UI_IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 667.0)
 #define UI_IS_IPHONE6PLUS_OR_7PLUS  (UI_IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 736.0 || [[UIScreen mainScreen] bounds].size.width == 736.0) // Both orientations

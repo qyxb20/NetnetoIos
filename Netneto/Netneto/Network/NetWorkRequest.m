@@ -7,10 +7,10 @@
 
 #import "NetWorkRequest.h"
 NSString *kHttpErrorReason = @"httpError";
-//NSString * const RequestServerDomain = @"http://133.242.182.135:8086";
-//NSString * const RequestH5Domain = @"http://133.242.182.135:8086";
-NSString * const RequestServerDomain = @"https://api.netneto.jp";
-NSString * const RequestH5Domain = @"https://api.netneto.jp";
+NSString * const RequestServerDomain = @"http://133.242.182.135:8086";
+NSString * const RequestH5Domain = @"http://133.242.182.135:8086";
+//NSString * const RequestServerDomain = @"https://api.netneto.jp";
+//NSString * const RequestH5Domain = @"https://api.netneto.jp";
 //NSString * const RequestServerDomain = @"http://192.168.1.117:8086";
 //NSString * const RequestH5Domain = @"http://192.168.1.117:8086";
 
